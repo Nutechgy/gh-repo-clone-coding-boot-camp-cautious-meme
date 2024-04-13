@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --config ./client/webpack.config.js --open",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "keywords": [],
   "author": "",
@@ -21,4 +23,6 @@
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^7.0.0"
   }
-}
+  
+  }
+  
